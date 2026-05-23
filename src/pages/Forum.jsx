@@ -13,7 +13,7 @@ const Forum = () => {
   const [editingPost, setEditingPost] = useState(null);
   const [commentTexts, setCommentTexts] = useState({});
 
-  const API_URL = "https://caresync-backend-production-b0da.up.railway.app/api/forum";
+  const API_URL = "https://caresynccare.netlify.app";
 
   const loadPosts = async () => {
     if (!user) return;
