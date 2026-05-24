@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ||"https://caresynccare.netlify.app",
+  baseURL: import.meta.env.VITE_API_URL ||"https://frontend-caresync.vercel.app",
 });
 
 axiosInstance.interceptors.request.use((config) => {

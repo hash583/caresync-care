@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://caresynccare.netlify.app",
+  baseURL: "https://frontend-caresync.vercel.app",
   timeout: 10000,
 });
 
