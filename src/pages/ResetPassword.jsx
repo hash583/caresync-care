@@ -23,7 +23,7 @@ const ResetPassword = () => {
     }
 
     try {
-      const res = await axios.post(`http://localhost:5000/api/password/reset/${token}`, { password });
+      const res = await axios.post(`https://caresync-backend-two.vercel.app/api/password/reset/${token}`, { password });
 
       setMessage(res.data.message || "Password reset successful!");
       setTimeout(() => navigate("/login"), 2000); // redirect to login
