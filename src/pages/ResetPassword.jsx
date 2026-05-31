@@ -23,7 +23,7 @@ const ResetPassword = () => {
     }
 
     try {
-      const res = await axios.post(`https://caresync-backend-production-b0da.up.railway.app/api/password/reset/${token}`, { password });
+      const res = await axios.post(`https://caresync-backend-production-e316.up.railway.app/api/password/reset/${token}`, { password });
 
       setMessage(res.data.message || "Password reset successful!");
       setTimeout(() => navigate("/login"), 2000); // redirect to login

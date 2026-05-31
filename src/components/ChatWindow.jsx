@@ -138,7 +138,7 @@ const ChatWindow = ({ family, currentUser }) => {
                           className="chat-image"
                         />
                         <a
-                          href={`https://caresync-backend-production-b0da.up.railway.app/${msg.file}`}
+                          href={`https://caresync-backend-production-e316.up.railway.app/${msg.file}`}
                           download
                           className="image-download"
                         >
@@ -147,7 +147,7 @@ const ChatWindow = ({ family, currentUser }) => {
                       </div>
                     ) : (
                       <a
-                        href={`https://caresync-backend-production-b0da.up.railway.app/${msg.file}`}
+                        href={`https://caresync-backend-production-e316.up.railway.app/${msg.file}`}
                         download
                         className="chat-file"
                       >

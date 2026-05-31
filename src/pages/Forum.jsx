@@ -13,7 +13,7 @@ const Forum = () => {
   const [editingPost, setEditingPost] = useState(null);
   const [commentTexts, setCommentTexts] = useState({});
 
-  const API_URL = "https://frontend-caresync.vercel.app";
+  const API_URL = "https://caresync-backend-production-e316.up.railway.app/api/forum";
 
   const loadPosts = async () => {
     if (!user) return;
